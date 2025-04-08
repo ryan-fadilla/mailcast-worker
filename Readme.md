@@ -12,6 +12,15 @@ go mod tidy
 go run cmd/main.go
 ```
 
+## Docker
+
+Please follow this command step by step :
+
+```
+docker build -t mailcast-worker .
+docker run mailcast-worker:latest
+```
+
 ## Git Dependency
 
 - [Get started with asynqmon](https://github.com/hibiken/asynqmon)
